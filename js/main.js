@@ -1,14 +1,14 @@
 $(document).ready(function() {
 	// Set header
-	$('.menu-header').load('pages/header.html');
-	$('.footer').load('pages/footer.html');
+	$('.menu-header').load('shared/header.html');
+	$('.footer').load('shared/footer.html');
 
 	// Smooth scroll
 	$('a[href^="#"]').on("click", function(e) {
 		e.preventDefault();
 		var target = this.hash, $target = $(target);
 		$("html, body").stop().animate({
-			scrollTop: $target.offset().top - 70
+			scrollTop: $target.offset().top - 80
 		}, 900, "swing", function() {
 			window.location.hash = target;
 		});

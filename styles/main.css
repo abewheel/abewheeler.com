@@ -20,7 +20,11 @@ hr {
 footer .btn {
   color: #fff;
   width: 80px;
-  padding: 30px;
+  padding: 0px 15px 15px 15px;
+}
+
+.menu-header {
+  padding-top: 80px;
 }
 
 #menu-header-main .color-change {
@@ -28,12 +32,16 @@ footer .btn {
 }
 
 .navbar {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  border-bottom: 1px #fff solid;
 }
 
-.title-row {
-  padding-top: 30vh;
+.navbar-brand {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.top {
+  padding-top: 22vh;
   padding-bottom:30vh;
 }
 
