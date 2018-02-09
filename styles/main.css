@@ -23,31 +23,35 @@ footer .btn {
   padding: 0px 15px 15px 15px;
 }
 
-.menu-header {
-  padding-top: 80px;
+.navbar-large {
+  font-size: 30px;
 }
 
-#menu-header-main .color-change {
-  display: none;
+.menu-header {
+  padding-top: 105px;
 }
 
 .navbar {
   border-bottom: 1px #fff solid;
 }
 
-.navbar-brand {
+.navbar .row {
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
 .top {
-  padding-top: 22vh;
-  padding-bottom:30vh;
+  padding-top: 17vh;
+  padding-bottom:32vh;
 }
 
 .section {
   padding-top: 10vh;
   padding-bottom: 10vh;
+}
+
+#menu-header-main .color-change {
+  display: none;
 }
 
 /* -------------------- Below from Creative Tim's Paper Kit -------------------- */
