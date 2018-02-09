@@ -17,6 +17,12 @@ hr {
   background-color: #fff;
 }
 
+footer .btn {
+  color: #fff;
+  width: 80px;
+  padding: 30px;
+}
+
 #menu-header-main .color-change {
   display: none;
 }
