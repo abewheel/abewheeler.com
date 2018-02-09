@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	// Set header
 	$('.menu-header').load('pages/header.html');
+	$('.footer').load('pages/footer.html');
 
 	// Smooth scroll
 	$('a[href^="#"]').on("click", function(e) {
