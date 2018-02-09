@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	// Set header
-	$('.menu-header').load('/shared/header.html');
-	$('.footer').load('/shared/footer.html');
+	$('.menu-header').load('/header.html');
+	$('.footer').load('/footer.html');
 
 	// Smooth scroll
 	$('a[href^="#"]').on("click", function(e) {
