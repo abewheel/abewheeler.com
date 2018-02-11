@@ -13,13 +13,4 @@ $(document).ready(function() {
     }
     var greetingHeader = document.getElementById("greeting");
     greetingHeader.innerHTML = greeting + ", I'm Abe.";
-
-    // Navbar color on scroll
-    var fadedIn = false;
-    $(window).scroll(function (event) {
-    	var scroll = $(window).scrollTop();
-    	if(!fadedIn && scroll > 5) {
-    		$(".navbar").fadeIn("slow");
-    	}
-    });
 });

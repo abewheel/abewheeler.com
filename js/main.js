@@ -1,6 +1,11 @@
 $(document).ready(function() {
 	// Set header
-	$('.menu-header').load('/header.html');
+	$('.menu-header').load('/header.html', function() {
+		if(window.location.pathname !== "/") {
+			$(".navbar").fadeIn("slow");
+		}
+		$("body").fadeIn("slow");
+	});
 	$('.footer').load('/footer.html');
 
 	// Smooth scroll
@@ -12,6 +17,16 @@ $(document).ready(function() {
 		}, 1000, "swing", function() {
 			window.location.hash = target;
 		});
+	});
+
+	// Navbar color on scroll
+	var fadedIn = false;
+	$(window).scroll(function (event) {
+		var scroll = $(window).scrollTop();
+		if(!fadedIn && scroll > 5) {
+			$(".navbar").fadeIn("slow");
+			fadedIn = true;
+		}
 	});
 });
 
