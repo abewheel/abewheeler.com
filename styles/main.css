@@ -46,6 +46,7 @@ footer .btn {
 
 .navbar {
   border-bottom: 1px #fff solid;
+  background-color: #000;
 }
 
 .navbar .row {
@@ -65,35 +66,6 @@ footer .btn {
 
 .color-change {
   display: none;
-}
-/* -------------------- Below from Creative Tim's Paper Kit -------------------- */
-.btn-outline-neutral {
-  border-color: #FFFFFF;
-  color: #FFFFFF;
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-.btn-outline-neutral:hover, .btn-outline-neutral:focus, .btn-outline-neutral:active, .btn-outline-neutral.active, .open > .btn-outline-neutral.dropdown-toggle {
-  background-color: #FFFFFF;
-  color: rgba(255, 255, 255, 0.8);
-  border-color: #FFFFFF;
-}
-.btn-outline-neutral:hover .caret, .btn-outline-neutral:focus .caret, .btn-outline-neutral:active .caret, .btn-outline-neutral.active .caret, .open > .btn-outline-neutral.dropdown-toggle .caret {
-  border-top-color: rgba(255, 255, 255, 0.8);
-}
-.btn-outline-neutral .caret {
-  border-top-color: #FFFFFF;
-}
-.btn-outline-neutral.disabled, .btn-outline-neutral.disabled:hover, .btn-outline-neutral.disabled:focus, .btn-outline-neutral.disabled.focus, .btn-outline-neutral.disabled:active, .btn-outline-neutral.disabled.active, .btn-outline-neutral:disabled, .btn-outline-neutral:disabled:hover, .btn-outline-neutral:disabled:focus, .btn-outline-neutral:disabled.focus, .btn-outline-neutral:disabled:active, .btn-outline-neutral:disabled.active, .btn-outline-neutral[disabled], .btn-outline-neutral[disabled]:hover, .btn-outline-neutral[disabled]:focus, .btn-outline-neutral[disabled].focus, .btn-outline-neutral[disabled]:active, .btn-outline-neutral[disabled].active, fieldset[disabled] .btn-outline-neutral, fieldset[disabled] .btn-outline-neutral:hover, fieldset[disabled] .btn-outline-neutral:focus, fieldset[disabled] .btn-outline-neutral.focus, fieldset[disabled] .btn-outline-neutral:active, fieldset[disabled] .btn-outline-neutral.active {
-  background-color: transparent;
-  border-color: #FFFFFF;
-}
-.btn-outline-neutral:hover, .btn-outline-neutral:focus {
-  color: #403D39 !important;
-  background-color: #FFFFFF;
-}
-.btn-round {
-  border-radius: 30px;
 }
 
 .timeline {
@@ -218,4 +190,62 @@ footer .btn {
   .date {
     text-align: left !important;
   }
+
+  .navbar ul {
+    margin-right: 0px !important;
+    border-bottom: 1px solid #fff;
+  }
+
+  .navbar li {
+    border-top: 1px solid #fff;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand {
+    padding-left: 10px !important;
+  }
+
+  .navbar-toggler-icon {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .top {
+    padding-top: 5vh;
+  }
+
+  h4{
+    font-size: 1.2rem;
+  }
+}
+
+/* -------------------- Below from Creative Tim's Paper Kit -------------------- */
+.btn-outline-neutral {
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.btn-outline-neutral:hover, .btn-outline-neutral:focus, .btn-outline-neutral:active, .btn-outline-neutral.active, .open > .btn-outline-neutral.dropdown-toggle {
+  background-color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.8);
+  border-color: #FFFFFF;
+}
+.btn-outline-neutral:hover .caret, .btn-outline-neutral:focus .caret, .btn-outline-neutral:active .caret, .btn-outline-neutral.active .caret, .open > .btn-outline-neutral.dropdown-toggle .caret {
+  border-top-color: rgba(255, 255, 255, 0.8);
+}
+.btn-outline-neutral .caret {
+  border-top-color: #FFFFFF;
+}
+.btn-outline-neutral.disabled, .btn-outline-neutral.disabled:hover, .btn-outline-neutral.disabled:focus, .btn-outline-neutral.disabled.focus, .btn-outline-neutral.disabled:active, .btn-outline-neutral.disabled.active, .btn-outline-neutral:disabled, .btn-outline-neutral:disabled:hover, .btn-outline-neutral:disabled:focus, .btn-outline-neutral:disabled.focus, .btn-outline-neutral:disabled:active, .btn-outline-neutral:disabled.active, .btn-outline-neutral[disabled], .btn-outline-neutral[disabled]:hover, .btn-outline-neutral[disabled]:focus, .btn-outline-neutral[disabled].focus, .btn-outline-neutral[disabled]:active, .btn-outline-neutral[disabled].active, fieldset[disabled] .btn-outline-neutral, fieldset[disabled] .btn-outline-neutral:hover, fieldset[disabled] .btn-outline-neutral:focus, fieldset[disabled] .btn-outline-neutral.focus, fieldset[disabled] .btn-outline-neutral:active, fieldset[disabled] .btn-outline-neutral.active {
+  background-color: transparent;
+  border-color: #FFFFFF;
+}
+.btn-outline-neutral:hover, .btn-outline-neutral:focus {
+  color: #403D39 !important;
+  background-color: #FFFFFF;
+}
+.btn-round {
+  border-radius: 30px;
 }
