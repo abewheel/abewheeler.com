@@ -156,6 +156,26 @@ footer .btn {
   z-index: 100;
 }
 
+.card {
+  background-color: #000;
+}
+
+#usc {
+  background-color: #990000;
+}
+
+#usc h4 {
+  color: #ffcc00;
+}
+
+#uw {
+  background-color: #4b2e83;
+}
+
+#uw h4 {
+  color: #e8e3d3;
+}
+
 @media (max-width: 767px) {
   ul.timeline:before {
     left: 40px;
@@ -225,22 +245,6 @@ footer .btn {
     padding-left: 50px;
     padding-right: 50px;
   }
-}
-
-#usc {
-  background-color: #990000;
-}
-
-#usc h4 {
-  color: #ffcc00;
-}
-
-#uw {
-  background-color: #4b2e83;
-}
-
-#uw h4 {
-  color: #e8e3d3;
 }
 
 /* -------------------- Below from Creative Tim's Paper Kit -------------------- */
