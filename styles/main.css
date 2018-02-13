@@ -220,6 +220,29 @@ footer .btn {
   }
 }
 
+@media (min-width: 1200px) {
+  .card img {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+#usc {
+  background-color: #990000;
+}
+
+#usc h4 {
+  color: #ffcc00;
+}
+
+#uw {
+  background-color: #4b2e83;
+}
+
+#uw h4 {
+  color: #e8e3d3;
+}
+
 /* -------------------- Below from Creative Tim's Paper Kit -------------------- */
 .btn-outline-neutral {
   border-color: #FFFFFF;
