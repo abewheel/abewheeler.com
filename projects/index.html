@@ -14,7 +14,21 @@
 	<div class="menu-header"></div>
 	<div class="container py-5">
 		<h1 class="py-5 text-center">Projects</h1>
-		<p class="mt-5 text-muted">&ensp;&ensp;&ensp;&ensp;&ensp;I genuinely love to code and I love to learn, but, most of all, I like to build things. I am constantly putting together side projects in my spare time and, while not all are public or worthy of note, I would be so happy to show you some of my work. If you would like, check out the source code on <a href="https://github.com/abewheel">Github</a>!</p>
+		<p class="my-5 text-muted">&ensp;&ensp;&ensp;&ensp;&ensp;I genuinely love to code and I love to learn, but, most of all, I like to build things. I am constantly putting together side projects in my spare time and, while not all are public or worthy of note, I would be so happy to show you some of my work. If you would like, check out the source code on <a href="https://github.com/abewheel">Github</a>!</p>
+
+		<div class="py-5 row project">
+			<img class="img-fluid px-5 col-sm-12 offset-md-2 col-md-8 offset-lg-0 col-lg-6 col-xl-5" src="/images/checkoutMontage.png">
+			<div class="project-contents col-sm-12 col-lg-6 col-xl-7">
+				<h2 class="pb-1 pt-5">Checkout</h2>
+				<p class="text-muted font-italic">&ensp;&ensp;&ensp;&ensp;&ensp;An autonomous checkout system for Android</p>
+				<h5 class="py-1">About</h5>
+				<p class="text-muted">&ensp;&ensp;&ensp;&ensp;&ensp;I wrote Checkout from scratch as a personal project in 2017. It provides real offered prices for scanned items found online, though is intended to ultimately be connected to a POS system for vendor-specific prices. It dynamically locates prices and product images at runtime.</p>
+				<h5 class="py-1">Technical Details</h5>
+				<p class="text-muted">&ensp;&ensp;&ensp;&ensp;&ensp;Checkout was implemented in Java using AndroidStudio. It utilizes Amazon Cognito, DynamoDB NoSQL database, Amazon Pinpoint, and the Google Vision API's Barcode Reader. It uses an MVC design pattern with Singleton data persistence and SharedPreferences. It uses Volley for networking and UPCitemDB for UPC-A compliant barcode lookups.</p>
+			</div>
+		</div>
+
+		<p>More coming soon..</p>
 	</div>
 
 	<div class="footer"></div>
