@@ -53,8 +53,8 @@ form input, form textarea {
 }
 
 .navbar {
-  border-bottom: 1px #fff solid;
   background-color: #000;
+  border-bottom: 1px #fff solid;
 }
 
 .navbar .row {
