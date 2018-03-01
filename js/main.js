@@ -33,12 +33,11 @@ $(document).ready(function() {
 //FROM CODEPEN MARIO KLINGEMANN
 // Color navbar
 var colors = new Array(
-	[84, 61, 255],
-	[255,35,98],
-	[250, 172, 168],
-	[255,195,113],
-	[255,95,109]
-    //[45,175,230]
+	[255, 0, 0],
+	[147, 62, 178],
+	[0, 0, 255],
+	[255,95,109],
+	[30, 188, 183]
     );
 
 var step = 0;
