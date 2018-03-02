@@ -168,6 +168,12 @@ form input, form textarea {
   background-color: #000;
 }
 
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #usc {
   background-color: #990000;
 }
@@ -299,4 +305,27 @@ form input, form textarea {
 }
 .btn-round {
   border-radius: 30px;
+}
+
+/* ---------- Below From https://atomiks.github.io/30-seconds-of-css/ ----------*/
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }

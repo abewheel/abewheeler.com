@@ -30,8 +30,7 @@ $(document).ready(function() {
 	});
 });
 
-//FROM CODEPEN MARIO KLINGEMANN
-// Color navbar
+// Color navbar -- from Codepen by Mario Klingemann
 var colors = new Array(
 	[255, 0, 0],
 	[147, 62, 178],
