@@ -13,7 +13,7 @@ $(document).ready(function() {
 		e.preventDefault();
 		var target = this.hash, $target = $(target);
 		$("html, body").stop().animate({
-			scrollTop: $target.offset().top - 100
+			scrollTop: $target.offset().top - 70
 		}, 1000, "swing", function() {
 			window.location.hash = target;
 		});
