@@ -1,8 +1,10 @@
 $(document).ready(function() {
 	// Set header
 	$('.menu-header').load('/header.html', function() {
-		if(window.location.pathname !== "/") {
+		if(window.location.pathname !== "/" || document.cookie === "y") {
 			$(".navbar").fadeIn("slow");
+		} else {
+			document.cookie = "y";
 		}
 		$("body").fadeIn("slow");
 	});
