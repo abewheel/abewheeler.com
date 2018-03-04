@@ -34,11 +34,11 @@ $(document).ready(function() {
 
 // Color navbar -- from Codepen by Mario Klingemann
 var colors = new Array(
-	[255, 0, 0],
-	[147, 62, 178],
+	[30, 188, 183],
 	[0, 0, 255],
-	[255,95,109],
-	[30, 188, 183]
+	[5, 252, 186],
+	[55, 4, 224],
+	[4, 224, 110],
     );
 
 var step = 0;
