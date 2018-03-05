@@ -52,11 +52,6 @@ form input, form textarea {
   padding-top: 85px;
 }
 
-.navbar {
-  background-color: #000;
-  border-bottom: 1px #fff solid;
-}
-
 .navbar .row {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -243,11 +238,10 @@ form input, form textarea {
 
   .navbar ul {
     margin-right: 0px !important;
-    border-bottom: 1px solid #fff;
   }
 
   .navbar li {
-    border-top: 1px solid #fff;
+    margin-left: 30px;
   }
 
   .navbar-brand {
